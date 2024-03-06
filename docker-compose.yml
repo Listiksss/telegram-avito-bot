@@ -9,7 +9,7 @@ services:
     volumes:
       - .:/bot
     environment:
-      - BOT_API_TOKEN=${VIBot}
+      - BOT_API_TOKEN=${7023325728:AAGTeynyXdQtIBxBizTSYoTbQ6gdEnqsRSA}
     depends_on:
       - mongodb
     links:
